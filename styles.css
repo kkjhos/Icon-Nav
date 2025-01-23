@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(216, 15, 15);
+    width: 100%;
+    box-shadow: 0px 10px 10px black;
+}
+nav a{
+    padding: 15px 15px;
+    color: rgb(65, 212, 102);
+    float: left;
+    font-size: x-large;
+    text-decoration: none;
+    transition:0.5s;
+    scale:100%;
+
+}
+nav a:hover{
+    background-color: rgb(163, 66, 66);
+    padding: 20px;
+}
+
